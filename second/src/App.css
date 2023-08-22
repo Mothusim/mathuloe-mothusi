@@ -1,0 +1,116 @@
+body{
+
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    padding: 2% 4%;
+    background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+    overflow: hidden;
+}
+
+
+/* Nav */
+
+.navbar {
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+    padding: 0 100%;
+
+   
+    background-size: 200% 200%;
+    animation: ani_gradient 5s ease infinite;
+    
+}
+
+.nav {
+
+    
+    column-gap: 10px;
+    font-size: 1.5em;
+   
+}
+
+.nav a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav2 {
+
+    border-radius: 30px;
+    row-gap: 40px;
+    position: fixed;
+    right: 100px;
+    top: 200px;
+    padding: 1% 1%;
+    width: 4.5%;
+    height:fit-content;
+    background: linear-gradient(-60deg, #cf5ecb 15%, #57391C 85%);
+    background-size: 200% 200%;
+    animation: ani_gradient 5s ease infinite;
+    
+}
+
+.home-div {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    
+}
+
+.home-content {
+
+    padding: 15% 0 0 17%;
+
+}
+
+.profile-pic {
+
+    width: 40%;
+    padding: 5% 0 0 1%;
+    aspect-ratio: 1;
+    clip-path: polygon(78.88% 90.82%,20.10% 90.08%,2.65% 33.95%,50.63% 0.00%,97.74% 35.15%);
+    
+
+}
+
+
+/* Connect */
+
+
+
+/* Animations */
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes ani_gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
