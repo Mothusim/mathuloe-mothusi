@@ -6,10 +6,6 @@ import ContactUs from './Pages/ContactUs'
 import Testemonials from './Pages/Testemonials'
 import Projects from './Pages/Projects'
 import AppLayout from './layouts/AppLayout'
-import ProjectsLayout from './layouts/ProjectsLayout'
-import ProjectDescription from './components/ProjectDescription'
-import ProjectTech from './components/ProjectTech'
-import ProjectImages from './components/ProjectImages'
 import data from './data'
 import Skills from './components/Skills'
 import SkillsLayout from './layouts/SkillsLayout'
@@ -23,7 +19,7 @@ function App() {
   return (
 
     <>
-
+      
       <dataContext.Provider value={{data}}>
     
         <BrowserRouter>
@@ -35,14 +31,8 @@ function App() {
               <Route index element={<Home />} />
               <Route path='contact' element={<ContactUs />} />
               <Route path='testemonials' element={<Testemonials />} />
-              <Route path='projects' element={<Projects />} />
-              <Route path='projects/:id' element={<ProjectsLayout />}>
-
-                <Route index element={<ProjectDescription />} />
-                <Route path='tech' element={<ProjectTech />} />
-                <Route path='images' element={<ProjectImages />} />
-
-              </Route>
+             
+              <Route path='projects' element={<Projects/>} />
 
               <Route path='skills' element={<SkillsLayout />}>
 

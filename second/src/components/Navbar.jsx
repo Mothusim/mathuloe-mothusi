@@ -7,6 +7,16 @@ import GithubIcon from '../assets/github.svg'
 import linkedinIcon from '../assets/linkedin.svg'
 import TwitterIcon from '../assets/twitter.svg'
 
+const socialIcons = {
+
+    width: '50%',
+    height: '10vh',
+
+    '@MediaCapabilities(min-width: 800px)':{
+
+        width: '100%'
+    }
+}
 
 export default function NavBar(){
       
@@ -26,9 +36,9 @@ export default function NavBar(){
 
                 <Nav className="nav">
 
-                    <a href='#'><img src={GithubIcon} alt="Github icon" /></a>
-                    <a href='#'><img src={linkedinIcon} alt="Linkedin icon" /></a>
-                    <a href='#'><img src={TwitterIcon} alt="Twitter icon" /></a>
+                    <a href='https://github.com/Mothusim' target="_blank" rel="noreferrer"><img src={GithubIcon} style={socialIcons} alt="Github icon" /></a>
+                    <a href='http://www.linkedin.com/in/mothusi-mathuloe' target="_blank" rel="noreferrer"><img src={linkedinIcon} style={socialIcons} alt="Linkedin icon" /></a>
+                    <a href='#' target="_blank" rel="noreferrer"><img src={TwitterIcon} style={socialIcons} alt="Twitter icon" /></a>
 
                 </Nav>
 

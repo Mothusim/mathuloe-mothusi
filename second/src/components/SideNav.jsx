@@ -24,10 +24,10 @@ export default function NavBar(){
 
         <>
 
-            <Navbar className='navbar2'  >
+            
 
 
-                <Nav className="nav2" style={{display: 'flex', flexDirection:'column'}}>
+                <div className="nav2" >
 
                     <Link to={'/'} style={navLinkStyling}><img src={HomeIcon} alt={'Home button'} className="NavIcons" /></Link>
                     <Link to={'contact'} style={navLinkStyling}><img src={ContactIcon} alt={'Contact button'} className="NavIcons" /></Link>
@@ -35,11 +35,11 @@ export default function NavBar(){
                     <Link to={'projects'} style={navLinkStyling}><img src={ProjectsIcon} alt={'Projects button'} className="NavIcons" /></Link>
                     <Link to={'skills'} style={navLinkStyling}><img src={SkillsIcon} alt={'Skills button'} className="NavIcons" /></Link>
 
-                </Nav>
+                </div>
 
                 
 
-            </Navbar>
+            
 
         </>
     )

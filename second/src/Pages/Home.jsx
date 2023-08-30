@@ -1,36 +1,31 @@
-import { Link } from "react-router-dom";
 import Typography from '@mui/material/Typography'
 import ProfilePic from '../assets/Image-normal.jpg'
 import 'animate.css'
-
-
-
+  
 export default function Home(){
 
     return(
 
         <div className="home-div">
 
-            
+            <div className="home-content animate__animated animate__fadeInLeft">
 
-            <div className="home-content animate__animated animate__bounceInLeft">
+                <h2 className='home-h2'>WEB DEVELOPER</h2>
 
-            <Typography variant="h2" >WEB DEVELOPER</Typography>
+                <h5 className='home-h5'>Hi there! 👋🏽</h5>
 
-                <Typography variant="P">
+                <p className='home-p'>
 
-                    <span style={{fontSize: '1.5em', fontWeight: 'bold'}}>Hi there! 👋🏽</span> <br />
-                    I am a web developer based in North West, South Africa. <br />
+                    I am a web developer based in North West, South Africa.
                     I create beautiful & functional websites for small businesses.
 
-                </Typography>
+                </p>
 
             </div>
             
-            <img src={ProfilePic} alt='profile picture' className="profile-pic animate__animated animate__bounceInUp" />
+            <img src={ProfilePic} alt='profile picture'  className="profile-pic animate__animated animate__fadeInUp" />
             
         </div>
-        
         
     )
 
