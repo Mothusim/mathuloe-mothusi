@@ -1,10 +1,7 @@
-import Typography from "@mui/material/Typography";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import styled from 'styled-components';
 import 'animate.css'
 
-// npm i @emailjs/browser
 
 const Contact = () => {
 
@@ -22,14 +19,21 @@ const Contact = () => {
         "j0N_egdr1iQL7dcly"
       )
       .then(
+
         (result) => {
+
           console.log(result.text);
           console.log("message sent");
+
         },
         (error) => {
+
           console.log(error.text);
+
         }
+
       );
+      
   };
 
   return (

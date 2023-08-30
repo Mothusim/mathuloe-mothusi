@@ -1,4 +1,3 @@
-import Typography from '@mui/material/Typography'
 import ProfilePic from '../assets/Image-normal.jpg'
 import 'animate.css'
   

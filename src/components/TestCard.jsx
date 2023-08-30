@@ -1,5 +1,6 @@
 import Typography from '@mui/material/Typography';
 import Marquee from "react-fast-marquee";
+import head from '../assets/image-h-and-shoulder.jpg'
 
 
 const testemonials = [
@@ -9,7 +10,7 @@ const testemonials = [
     'name': 'Mothusi',
     'company': 'XYZ',
     'position': 'Director',
-    'src': 'src/assets/image-h-and-shoulder.jpg',
+    'src': head,
     'quote': '"He is a very smart kid!"'
   },
   {
@@ -17,7 +18,7 @@ const testemonials = [
     'name': 'Spha',
     'company': 'Yoyo',
     'position': 'Accountant',
-    'src': 'src/assets/image-h-and-shoulder.jpg',
+    'src': head,
     'quote': '"I really loved working with him"',
   },
 
@@ -35,7 +36,7 @@ export default function TestCard() {
 
         <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
 
-          <img src={testemonial.src} alt={testemonial.name} style={{width:'50%', height:'20vh', borderRadius:'25px'}}/>
+          <img src= {testemonial.src} alt={testemonial.name} style={{width:'50%', height:'20vh', borderRadius:'25px'}}/>
 
           <div>
 
@@ -46,15 +47,21 @@ export default function TestCard() {
           </div>
 
         </div>
+
         <blockquote style={{marginTop:'2%', marginLeft: '5%'}}>{testemonial.quote}</blockquote>
 
     </div>
+
   ))
+
   return (
+
     <Marquee pauseOnHover className='marQ'>
       
         {teste}
      
     </Marquee>
+
   );
+
 }

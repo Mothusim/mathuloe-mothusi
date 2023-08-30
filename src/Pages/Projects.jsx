@@ -1,4 +1,5 @@
 import ProjectCard from "../components/ProjectCard"
+import head from '../assets/image-h-and-shoulder.jpg'
 
 const testemonials = [
 
@@ -7,7 +8,7 @@ const testemonials = [
       'name': 'Mothusi',
       'company': 'XYZ',
       'position': 'Director',
-      'src': 'src/assets/image-h-and-shoulder.jpg',
+      'src': head,
       'quote': '"He is a very smart kid!"'
     },
     {
@@ -15,7 +16,7 @@ const testemonials = [
       'name': 'Spha',
       'company': 'Yoyo',
       'position': 'Accountant',
-      'src': 'src/assets/image-h-and-shoulder.jpg',
+      'src': head,
       'quote': '"I really loved working with him"',
     },
   
@@ -37,7 +38,9 @@ export default function Projects(){
     return(
 
         <div className='projectContainer'>
+
            {teste}
+           
         </div>
     )
     
