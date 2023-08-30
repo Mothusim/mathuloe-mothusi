@@ -121,12 +121,10 @@ body{
 .home-content {
 
     padding: 1% 0 0 2.5%;
-    /* display: none; */
-
+    
     @media(min-width: 800px) {
     
         margin: 7% 0 0 0;
-        /* display: block; */
     
     }
 
@@ -149,7 +147,7 @@ body{
 
     @media(min-width: 800px){
 
-        font-size: 5em;
+        font-size: 4em;
         text-align: center;
         font-weight: bold;
         margin-bottom: 10%;
