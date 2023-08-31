@@ -402,12 +402,12 @@ input[type="submit"] {
     width: 25px;
     height: 25px;
   
-    @media(min-width: 800px){
+    /* @media(min-width: 800px){
   
       width: 35px;
       height: 35px;
 
-    }
+    } */
 
 }
 
@@ -416,11 +416,11 @@ input[type="submit"] {
     width: 30px;
     height: 30px;
   
-    @media(min-width: 800px){
+    /* @media(min-width: 800px){
   
       width: 45px;
       height: 45px;
-    }
+    } */
   }
 
 .skills-h5 {
