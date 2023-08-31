@@ -550,7 +550,7 @@ input[type="submit"] {
     @media (min-width: 800px){
 
         grid-template-columns: repeat(5, 1fr);
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         row-gap: 20px;
 
     }
