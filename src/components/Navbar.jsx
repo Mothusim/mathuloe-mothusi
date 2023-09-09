@@ -12,7 +12,7 @@ const socialIcons = {
     width: '50%',
     height: '10vh',
 
-    '@MediaCapabilities(min-width: 800px)':{
+    '@media(minWidth: 800px)':{
 
         width: '100%'
     }
