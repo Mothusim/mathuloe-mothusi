@@ -5,21 +5,21 @@ import head from '../assets/image-h-and-shoulder.jpg'
 
 const testemonials = [
 
-  {
-    'id': 1,
-    'name': 'Mothusi',
-    'company': 'XYZ',
-    'position': 'Director',
-    'src': head,
-    'quote': '"He is a very smart kid!"'
-  },
+  // {
+  //   'id': 1,
+  //   'name': 'Paul Seffore',
+  //   'company': 'Seffore Attorneys',
+  //   'position': 'Director',
+  //   'src': head,
+  //   'quote': '"He is a very smart kid!"'
+  // },
   {
     'id': 2,
-    'name': 'Spha',
-    'company': 'Yoyo',
-    'position': 'Accountant',
+    'name': 'Andrea Petersen',
+    'company': 'Codespace Academy',
+    'position': 'Personal Development Coach',
     'src': head,
-    'quote': '"I really loved working with him"',
+    'quote': '"Mothusi is a values-driven go-getter with an entrepreneurial mindset and a tenacious attitude for learning."',
   },
 
 
