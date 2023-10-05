@@ -1,4 +1,3 @@
-import { Typography } from "@mui/material";
 import {
 
   FaHtml5,
@@ -71,9 +70,9 @@ const Skills = () => {
                     <ul className="tech-skills-list">
 
                         {section.info.map((infoItem, index) => (
-                          <>
+                          <div key={index}>
                           <h5 className="skills-h5">{infoItem.title}</h5>
-                            <li key={index} className="tech-skills-info-item animate__animated animate__fadeInLeft" >
+                            <li className="tech-skills-info-item animate__animated animate__fadeInLeft" >
 
                                 
                                 
@@ -89,7 +88,7 @@ const Skills = () => {
                                 </div>
 
                             </li>
-                            </>
+                            </div>
 
                         ))}
 
