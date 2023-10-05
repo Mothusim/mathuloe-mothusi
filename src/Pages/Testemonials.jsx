@@ -7,7 +7,7 @@ export default function Testemonials(){
 
         <div className='testMain'>
 
-            <h3 className='testemonials-h3'>Testemonials</h3>
+            <h3 className='testemonials-h3'>Testimonials</h3>
 
             <h6 className='testemonials-h6' style={{marginBottom:'5%', color:'white'}}>Check out what others are saying</h6>
 
