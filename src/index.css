@@ -361,6 +361,11 @@ input[type="submit"] {
     -webkit-backdrop-filter: blur( 2px );
     border-radius: 25px;
 
+    @media(min-width: 700px){
+
+        height: 30vh;
+    }
+
 }
 
 .child {
@@ -555,6 +560,24 @@ input[type="submit"] {
 
     }
     
+}
+
+.ss{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* height: 2em; */    
+    @media (min-width: 700px) {
+        flex-direction: row;
+    };
+
+}
+
+.test-pic{
+    width: 50%;
+    height: 15vh;
+    border-radius: 25px;
 }
 
 .soft-skills-item {

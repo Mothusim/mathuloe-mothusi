@@ -1,24 +1,21 @@
 import Typography from '@mui/material/Typography';
-import Marquee from "react-fast-marquee";
-import head from '../assets/image-h-and-shoulder.jpg'
+import andrea from '../assets/Andrea petersen.jpeg'
+import seffore from '../assets/seffore logo.png'
 
+const testimonials = [
 
-const testemonials = [
-
-  // {
-  //   'id': 1,
-  //   'name': 'Paul Seffore',
-  //   'company': 'Seffore Attorneys',
-  //   'position': 'Director',
-  //   'src': head,
-  //   'quote': '"He is a very smart kid!"'
-  // },
+  {
+    'id': 1,
+    'name': 'Paul Seffore',
+    'company': 'Seffore Attorneys',
+    'src': seffore,
+    'quote': '"He only stops when the problem is solved"'
+  },
   {
     'id': 2,
     'name': 'Andrea Petersen',
     'company': 'Codespace Academy',
-    'position': 'Personal Development Coach',
-    'src': head,
+    'src': andrea,
     'quote': '"Mothusi is a values-driven go-getter with an entrepreneurial mindset and a tenacious attitude for learning."',
   },
 
@@ -28,27 +25,24 @@ const testemonials = [
 export default function TestCard() {
 
   
-  const teste = testemonials.map((testemonial) => (
+  const teste = testimonials.map((testimonial) => (
     
-    <div key={testemonial.id} className='testeCard'>
+    <div key={testimonial.id} className='testeCard '>
         
-        
-
         <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
 
-          <img src= {testemonial.src} alt={testemonial.name} style={{width:'50%', height:'20vh', borderRadius:'25px'}}/>
+          <img  className='test-pic' src= {testimonial.src} alt={testimonial.name}/>
 
-          <div>
+          <div style={{marginLeft: '5%'}}>
 
-            <Typography variant='subtitle1' style={{marginTop: '5%'}}>{testemonial.name}</Typography>
-            <Typography variant='subtitle1'>Company: {testemonial.company}</Typography>
-            <Typography variant='subtitle2'>Position: {testemonial.position}</Typography>
+            <Typography variant='subtitle1' style={{marginTop: '5%', fontWeight:'bold'}}>{testimonial.name}</Typography>
+            <Typography variant='subtitle1'>Company: {testimonial.company}</Typography>
 
           </div>
 
         </div>
 
-        <blockquote style={{marginTop:'2%', marginLeft: '5%'}}>{testemonial.quote}</blockquote>
+        <blockquote style={{marginTop:'2%', marginLeft: '5%'}}>{testimonial.quote} </blockquote>
 
     </div>
 
@@ -56,11 +50,9 @@ export default function TestCard() {
 
   return (
 
-    <Marquee pauseOnHover className='marQ'>
-      
-        {teste}
-     
-    </Marquee>
+    <div className='ss'>
+    {teste}
+    </div>
 
   );
 
