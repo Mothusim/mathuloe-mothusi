@@ -2,7 +2,7 @@ import ProjectCard from "../components/ProjectCard"
 import atumPod from '../assets/podcast pic.png'
 import bookConnect from '../assets/book-connect.png'
 import roboBoxing from '../assets/robo boxing.png'
-import TechCorner from '../assets/techCorner.png'
+import techCorner from '../assets/techCorner.png'
 import cookingDevs from '../assets/cookingDevs.png'
 
 const projects = [
