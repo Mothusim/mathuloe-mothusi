@@ -74,17 +74,23 @@ body{
 
     display: flex;
     flex-direction: row;
-    column-gap: 5px;
+    column-gap: 10px;
     position: fixed;
     right: 0px;
     bottom: 0px;
-    padding: 1% 5%;
+    padding: 0% 10%;
     height: 10vh;
     width: 100%;
     z-index: 99;
     background: linear-gradient(-60deg, #cf5ecb 15%, #57391C 85%);
     background-size: 200% 200%;
     animation: ani_gradient 5s ease infinite;
+
+    @media(min-width: 760px) {
+
+        column-gap: 50px;
+        padding: 0% 22%;
+    };
 
     @media(min-width: 1440px) {
         
