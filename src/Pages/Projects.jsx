@@ -26,6 +26,13 @@ const projects = [
       'link': 'https://scratch.mit.edu/projects/766553525',
       'description': 'This is a Scratch 3.0 boxing game that has robot as boxers instead of humans.',
     },
+    {
+      'id':4,
+      'name': 'Tech Corner',
+      'src': techCorner,
+      'link': 'https://mothusi-blog.vercel.app/',
+      'description': 'This is a NextJS blog site called Tech Corner'
+    }
   
   
   ]
