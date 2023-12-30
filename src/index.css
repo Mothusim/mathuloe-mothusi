@@ -81,7 +81,7 @@ body{
     padding: 1% 5%;
     height: 10vh;
     width: 100%;
-    
+    z-index: 99;
     background: linear-gradient(-60deg, #cf5ecb 15%, #57391C 85%);
     background-size: 200% 200%;
     animation: ani_gradient 5s ease infinite;
@@ -639,7 +639,7 @@ input[type="submit"] {
         max-height: none;
         overflow-y: hidden;
         overflow-x: scroll;
-
+        width: 70em;
     }
 
 }
