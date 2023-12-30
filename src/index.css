@@ -630,7 +630,7 @@ input[type="submit"] {
     padding: 0% 5%;
     max-height: 450px;
     overflow-y: auto;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 
     @media(min-width: 800px){
 
