@@ -86,7 +86,7 @@ body{
     background-size: 200% 200%;
     animation: ani_gradient 5s ease infinite;
 
-    @media(min-width: 800px) {
+    @media(min-width: 1440px) {
         
         flex-direction: column;
         border-radius: 30px;
