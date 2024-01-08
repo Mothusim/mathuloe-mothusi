@@ -34,6 +34,7 @@ export default function NavBar(){
                 </Typography>
 
                 <Bot />
+                <h1>Hey</h1>
 
                 <Nav className="nav">
 
